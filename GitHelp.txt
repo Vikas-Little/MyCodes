@@ -32,6 +32,9 @@ To push the changes online
 git push -u origin master
 then enter your username and password when asked
 
+To clone a repository say https://github.com/Vikas-Little/MyCodes.git into folder /path/to/folder
+git clone https://github.com/Vikas-Little/MyCodes.git /path/to/folder
+
 1) Commit whenever there is a significant change in the repository
 2) Commit regularly but you push it online less frequently say every night
 
