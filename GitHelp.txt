@@ -1,0 +1,37 @@
+Install git on system
+sudo apt-get install git
+
+Configure git user name and email
+git config --global user.name VikashUpadhyay
+git config --global user.email vikas.little@gmail.com
+
+Initialize a local git repository in a folder named '/path/to/folder'
+cd /path/to/folder
+git init
+
+Create an online repository at Github or Bitbucket say https://github.com/Vikas-Little/MyCodes.git
+
+Link the online repository to your local repository 
+git remote add origin https://github.com/Vikas-Little/MyCodes.git
+
+To add a file
+git add /path/to/file/in/your/local/repository
+
+To add a folder and all contents inside
+git add /path/to/folder/*
+
+To ignore any file, which should not be included in the repository, add the full path to filename in file .gitignore
+
+To delete any file
+git rm /path/to/file
+
+To commit
+git commit -a -m "<commit description>"
+
+To push the changes online
+git push -u origin master
+then enter your username and password when asked
+
+1) Commit whenever there is a significant change in the repository
+2) Commit regularly but you push it online less frequently say every night
+
